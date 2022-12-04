@@ -1,85 +1,42 @@
 <!DOCTYPE html>
 <html>
    <head>
-      <style>
-         *{box-sizing: border-box;}
-         div.container {
-         width: 80%;
-         border: 1px solid gray;
-         margin: 0 auto;
-         }
-         header, footer {
-         padding-top: 1em;
-         color: white;
-         background-color:#393939;
-         clear: left;
-         text-align: center;
-         }
-         nav {
-         background-color: #918D8E;
-         padding: 10px;
-         }
-         nav ul {
-         list-style-type: none;
-         padding: 0;
-         margin: 0;
-         overflow: hidden;
-         background-color: #918D8E;
-         }
-         nav ul {
-         list-style-type: none;
-         padding: 0;
-         margin: 0;
-         background-color: #918D8E;
-         display: flex;
-         flex-direction: row;
-         justify-content: space-around;
-         }
-         nav ul li{
-         float: left;
-         width: 25%;
-         }
-         ul a {
-         text-decoration: none;
-         color: #fff;
-         }
-         article {
-         width: 100%;
-         border-left: 1px solid gray;
-         padding: 1em;
-         overflow: hidden;
-         }
-         .slideshow{
-         margin-top: 30px;
-         display: flex;
-         flex-direction: row;
-         flex-wrap: wrap;
-         justify-content: space-around;
-         }
-         .slideshow a{
-         flex-basis: auto;
-         }
-      </style>
+	    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+		<meta charset="utf-8">
+		<title>Michelle Luo</title>
+		<link rel="stylesheet" type="text/css" href="./assets/styles.css">
    </head>
    <body>
       <div class="container">
          <header>
             <h1>Photo Gallery</h1>
-            <nav>
-               <ul>
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">Portraits</a></li>
-                  <li><a href="#">Landscapes</a></li>
-                  <li><a href="#">Weddings</a></li>
-               </ul>
-            </nav>
+			<ul class="nav">
+				<li class="navItem"><a href="#">Home</a></li>
+				<li class="navItem"><a href="#">About</a></li>
+				<li class="navItem"><a href="#">Blog</a></li>
+				<li class="navItem"><a href="#">Contact</a></li>
+				<li class="navItem"><a href="#">Pricing</a></li>
+				<li class="navItem"><a href="#">Support</a></li>
+			  </ul>
          </header>
          <div class="slideshow">
             <div class="cycle-slideshow">
-               <img src="images/thumbnail/small1.jpg" alt="image">
-               <img src="images/thumbnail/small2.jpg" alt="image">
-               <img src="images/thumbnail/small3.jpg" alt="image">
+               <img src="images/thumbnail/small1.jpg" alt="image1">
+               <img src="images/thumbnail/small2.jpg" alt="image2">
+			   <img src="images/thumbnail/small3.jpg" alt="image3">
+               <img src="images/thumbnail/small4.jpg" alt="image4">
+			   <img src="images/thumbnail/small5.jpg" alt="image5">
+			   <img src="images/thumbnail/small6.jpg" alt="image6">
+			   <img src="images/thumbnail/small7.jpg" alt="image7">
             </div>
+			<div class="section two">
+				<div>
+					<div class="overlay">
+						<h3>Hover me</h3>
+					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+					</div>
+				</div>
+			</div>
          </div>
          <div class="main">
             <article>
